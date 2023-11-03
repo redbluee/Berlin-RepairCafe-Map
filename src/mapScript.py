@@ -6,7 +6,7 @@ import os.path
 
 
 # Initialize folium map over Berlin
-map = folium.Map(location=[52.520008, 13.404954], tiles="Stamen Toner", 
+map = folium.Map(location=[52.520008, 13.404954], tiles="OpenStreetMap", 
 zoom_start=11, height="92%", prefer_canvas=True)
 
 
